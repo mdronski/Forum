@@ -1,16 +1,17 @@
 package com.company;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Post {
 
     private User user;
-    private Date date;
+    private LocalDate date;
     private String contents;
 
-    public Post(User user, Date date, String contents) {
+    public Post( String contents, User user) {
         this.user = user;
-        this.date = date;
+        this.date = LocalDate.now();
         this.contents = contents;
     }
 

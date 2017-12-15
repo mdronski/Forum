@@ -17,6 +17,11 @@ public class Thread {
         return topic;
     }
 
+    public boolean addPost(Post post){
+        return posts.add(post);
+    }
+
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

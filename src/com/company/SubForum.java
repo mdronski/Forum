@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SubForum {
@@ -8,10 +9,37 @@ public class SubForum {
     private List<Thread> threads;
     private List<SubForum> subForums;
 
+    public SubForum(String subject) {
+        this.subject = subject;
+        this.threads = new ArrayList<>();
+        this.subForums = new ArrayList<>();
+    }
 
     public String getSubject() {
         return subject;
     }
+
+    public List<Thread> getThreads() {
+        return threads;
+    }
+
+    public List<SubForum> getSubForums() {
+        return subForums;
+    }
+
+    public boolean addThread(Thread thread){
+        return threads.add(thread);
+    }
+
+    public boolean addSubForum(SubForum subforum){
+        return subForums.add(subforum);
+    }
+
+
+
+
+
+
 
     @Override
     public String toString() {

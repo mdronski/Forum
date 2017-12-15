@@ -7,11 +7,12 @@ public class Forum {
 
     private static final Forum instance = new Forum();
     private static String name = "Forum";
-    private SubForum mainForum = new SubForum();
+    private SubForum mainForum;
     private List<User> userList;
     private List<User> adminList;
 
     private Forum(){
+        mainForum = new SubForum("Main");
         userList = new ArrayList<>();
         adminList = new ArrayList<>();
     }
