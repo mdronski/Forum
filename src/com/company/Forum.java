@@ -55,4 +55,41 @@ public class Forum {
             }
         }
     }
-}
+
+    public boolean checkUser(String nick, String password){
+        for (User user : userList){
+            if (user.getNick().equals(nick) && user.getPassword().equals(password)){
+                return true;
+            }
+        }
+        for (User user : adminList){
+            if (user.getNick().equals(nick) && user.getPassword().equals(password)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean checkAdmin(String nick, String password){
+        for (User user : adminList){
+            if (user.getNick().equals(nick) && user.getPassword().equals(password)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public User getUser(String nick, String password){
+        for (User user : userList) {
+            if (user.getNick().equals(nick) && user.getPassword().equals(password)) {
+                return user;
+            }
+        }
+        for (User user : adminList){
+            if (user.getNick().equals(nick) && user.getPassword().equals(password)){
+                return user;
+                }
+            }return null;
+        }
+    }
+
