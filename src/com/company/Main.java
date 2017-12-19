@@ -44,10 +44,17 @@ public class Main {
 
         s1.addSubForum(s2);
 
-
         //System.out.println(s1);
+        //System.out.println(t1);
 
-        System.out.println(t1);
+        Forum.getInstance().setMainForum(s1);
+        UserInterface UI = LoginClass.logIn();
+
+        UI.showSubForumInterface();
+
+
+
+
 
 
 

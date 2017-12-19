@@ -9,7 +9,7 @@ public class LoginClass {
      public static UserInterface logIn(){
         String login = getLogin();
         String password = getPassword();
-        while (Forum.getInstance().checkUser(login, password)){
+        while (!Forum.getInstance().checkUser(login, password)){
             System.out.println("Wprowadzono niepoprawne dane, wpisz je ponownie: ");
             login = getLogin();
             password = getPassword();
@@ -23,14 +23,14 @@ public class LoginClass {
 
 
     private static String getLogin(){
-        System.out.print("Podaj login: ");
+        System.out.println("Podaj login: ");
         String login = scanner.nextLine();
         System.out.println();
         return login;
     }
 
     private static String getPassword(){
-        System.out.println("Podaj hasło");
+        System.out.println("Podaj hasło: ");
         String passw = scanner.nextLine();
         System.out.println();
         return passw;

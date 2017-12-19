@@ -2,11 +2,16 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Thread {
 
     private String topic;
     private List<Post> posts;
+//    private String threadOptions = "1.Add new post,    2.Delete post,   3.Go back";
+    protected Scanner scanner = new Scanner(System.in);
+
+
 
     public Thread(String topic) {
         this.topic = topic;
@@ -34,4 +39,17 @@ public class Thread {
         }
         return  sb.toString();
     }
+
+//    public void showThreadInterface(){
+//        System.out.println(this);
+//        System.out.println();
+//        System.out.println(threadOptions);
+//        System.out.println();
+//        int number = scanner.nextInt();
+//        System.out.println("you chosed option number: " + number);
+//        if (number == 1 || number == 2 ) showThreadInterface();
+//    }
+
+
+
 }

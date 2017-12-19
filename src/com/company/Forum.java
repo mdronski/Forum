@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Forum {
 
@@ -10,6 +11,8 @@ public class Forum {
     private SubForum mainForum;
     private List<User> userList;
     private List<User> adminList;
+    protected Scanner scanner = new Scanner(System.in);
+
 
     private Forum(){
         mainForum = new SubForum("Main");
@@ -17,6 +20,10 @@ public class Forum {
         adminList = new ArrayList<>();
     }
 
+
+    public void setMainForum(SubForum mainForum) {
+        this.mainForum = mainForum;
+    }
 
     public static Forum getInstance() {
         return instance;
@@ -91,5 +98,12 @@ public class Forum {
                 }
             }return null;
         }
-    }
+
+
+
+
+
+
+
+}
 
