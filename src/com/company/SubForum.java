@@ -10,7 +10,7 @@ public class SubForum {
     private List<Thread> threads;
     private List<SubForum> subForums;
     protected Scanner scanner = new Scanner(System.in);
-//    private String options = "1.Go to thread    2.Add new subForum    3.Add new thread      4.Go back";
+
 
     public SubForum(String subject) {
         this.subject = subject;
@@ -38,41 +38,6 @@ public class SubForum {
         return subForums.add(subforum);
     }
 
-//    public void showSubForumInterface(){
-//        System.out.println(this);
-//        System.out.println();
-//        System.out.println(options);
-//        int number = scanner.nextInt();
-//        System.out.println("you chosed option number: " + number);
-//        switch (number){
-//            case 1:
-//                System.out.println("Chose thread: ");
-//                int threadNumber = scanner.nextInt();
-//                System.out.println("you chosed Thread: " + threadNumber);
-//                threads.get(threadNumber).showThreadInterface();
-//                break;
-//
-//            case 2:
-//                break;
-//
-//            case 3:
-//                break;
-//
-//            case 4:
-//
-//                break;
-//
-//            default:
-//                System.out.println("wrong argument");
-//                break;
-//
-//        }
-//
-//    }
-
-
-
-
 
     @Override
     public String toString() {
@@ -99,4 +64,6 @@ public class SubForum {
 
         return sb.toString();
     }
+
+
 }

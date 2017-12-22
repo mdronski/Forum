@@ -8,13 +8,14 @@ public class Thread {
 
     private String topic;
     private List<Post> posts;
-//    private String threadOptions = "1.Add new post,    2.Delete post,   3.Go back";
+    private User user;
     protected Scanner scanner = new Scanner(System.in);
 
 
 
-    public Thread(String topic) {
+    public Thread(String topic, User user) {
         this.topic = topic;
+        this.user = user;
         posts = new ArrayList<>();
     }
 
@@ -26,6 +27,17 @@ public class Thread {
         return posts.add(post);
     }
 
+    public boolean deletePost(Post post){
+        return posts.remove(post);
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public Post getPost(int number){
+        return posts.get(number);
+    }
 
     @Override
     public String toString() {
@@ -34,22 +46,27 @@ public class Thread {
         sb.append(System.getProperty("line.separator"));
         sb.append(System.getProperty("line.separator"));
         for (Post post : posts){
+            sb.append(posts.indexOf(post) + ". ");
             sb.append(post.toString());
             sb.append(System.getProperty("line.separator"));
         }
         return  sb.toString();
     }
 
-//    public void showThreadInterface(){
-//        System.out.println(this);
-//        System.out.println();
-//        System.out.println(threadOptions);
-//        System.out.println();
-//        int number = scanner.nextInt();
-//        System.out.println("you chosed option number: " + number);
-//        if (number == 1 || number == 2 ) showThreadInterface();
-//    }
+    @Override
+    public boolean equals(Object o) {
+
+        if (this == o){
+            return true;
+        }
 
 
+        if (! (o instanceof  Thread)){
+            return false;
+        }
 
+        Thread thread = (Thread) o;
+        return this.topic.equals(thread.getTopic()) ;
+
+    }
 }

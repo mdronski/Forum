@@ -15,7 +15,17 @@ public class Post {
         this.contents = contents;
     }
 
+    public User getUser() {
+        return user;
+    }
 
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public String getContents() {
+        return contents;
+    }
 
     @Override
     public String toString() {

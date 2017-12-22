@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.options.*;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -11,13 +13,23 @@ public class Forum {
     private SubForum mainForum;
     private List<User> userList;
     private List<User> adminList;
-    protected Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
+    private List<SubForumOption> userSubForumOptions;
+    private List<ThreadOption> userThreadOptions;
+    private List<SubForumOption> adminSubForumOptions;
+    private List<ThreadOption> adminThreadOptions;
 
 
     private Forum(){
         mainForum = new SubForum("Main");
         userList = new ArrayList<>();
         adminList = new ArrayList<>();
+        userSubForumOptions = new ArrayList<>();
+        addUserSubForumOptions();
+        userThreadOptions = new ArrayList<>();
+        addUserThreadOptions();
+        adminSubForumOptions = new ArrayList<>();
+        adminThreadOptions = new ArrayList<>();
     }
 
 
@@ -99,7 +111,18 @@ public class Forum {
             }return null;
         }
 
+    private void addUserThreadOptions(){
+        this.userThreadOptions.add(new AddPost());
+        this.userThreadOptions.add(new DeletePost());
+        this.userThreadOptions.add(new GoBackToSubForum());
+    }
 
+    private void addUserSubForumOptions(){
+        this.userSubForumOptions.add(new AddThread());
+        this.userSubForumOptions.add(new GoToThread());
+        this.userSubForumOptions.add(new GoToSubforum());
+        this.userSubForumOptions.add(new GoBack());
+    }
 
 
 

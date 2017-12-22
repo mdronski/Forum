@@ -1,6 +1,6 @@
 package com.company;
 
-import java.lang.reflect.Field;
+import com.company.options.GoToThread;
 
 public class Main {
 
@@ -20,17 +20,17 @@ public class Main {
         Post p7 = new Post("austriacki akwarelista", u1);
         Post p8 = new Post("jp2", u2);
 
-        Thread t1 = new Thread("thread 1");
+        Thread t1 = new Thread("thread 1", u1);
         t1.addPost(p1);
         t1.addPost(p2);
         t1.addPost(p3);
 
-        Thread t2 = new Thread("thread 2");
+        Thread t2 = new Thread("thread 2", u1);
         t2.addPost(p4);
         t2.addPost(p6);
         t2.addPost(p8);
 
-        Thread t3 = new Thread("thread 3");
+        Thread t3 = new Thread("thread 3", u2);
         t3.addPost(p5);
         t3.addPost(p7);
 
@@ -51,9 +51,6 @@ public class Main {
         UserInterface UI = LoginClass.logIn();
 
         UI.showSubForumInterface();
-
-
-
 
 
 
