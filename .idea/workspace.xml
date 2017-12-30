@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="344ca9b9-ddd6-4d6f-a5ab-908d4e0f1679" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/WriterClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/AddSubForum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/AdminOption.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/PromoteToAdmin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/ShowUsers.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/AdminInterface.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Forum.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Forum.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/LoginClass.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/LoginClass.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Post.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Post.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/SubForum.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/SubForum.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Thread.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Thread.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/User.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/UserInterface.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AdminInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Forum.java" afterPath="$PROJECT_DIR$/src/com/company/Forum.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/LoginClass.java" afterPath="$PROJECT_DIR$/src/com/company/LoginClass.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Post.java" afterPath="$PROJECT_DIR$/src/com/company/Post.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SubForum.java" afterPath="$PROJECT_DIR$/src/com/company/SubForum.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Thread.java" afterPath="$PROJECT_DIR$/src/com/company/Thread.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/User.java" afterPath="$PROJECT_DIR$/src/com/company/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/UserInterface.java" afterPath="$PROJECT_DIR$/src/com/company/UserInterface.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/AddPost.java" afterPath="$PROJECT_DIR$/src/com/company/options/AddPost.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/AddThread.java" afterPath="$PROJECT_DIR$/src/com/company/options/AddThread.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/DeletePost.java" afterPath="$PROJECT_DIR$/src/com/company/options/DeletePost.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBack.java" afterPath="$PROJECT_DIR$/src/com/company/options/GoBack.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBackToSubForum.java" afterPath="$PROJECT_DIR$/src/com/company/options/GoBackToSubForum.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoToSubforum.java" afterPath="$PROJECT_DIR$/src/com/company/options/GoToSubforum.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoToThread.java" afterPath="$PROJECT_DIR$/src/com/company/options/GoToThread.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/SubForumOption.java" afterPath="$PROJECT_DIR$/src/com/company/options/SubForumOption.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/ThreadOption.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOption.java" />
-    </list>
+    <list default="true" id="344ca9b9-ddd6-4d6f-a5ab-908d4e0f1679" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -395,7 +361,7 @@
       <workItem from="1514044641412" duration="564000" />
       <workItem from="1514065772267" duration="3253000" />
       <workItem from="1514644368877" duration="807000" />
-      <workItem from="1514653808444" duration="2629000" />
+      <workItem from="1514653808444" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="Empty project">
       <created>1513354700382</created>
@@ -404,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513354700382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added many functionalities">
+      <created>1514656461998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514656461998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49428000" />
+    <option name="totallyTimeSpent" value="49460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -479,7 +452,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empty project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Empty project" />
+    <MESSAGE value="added many functionalities" />
+    <option name="LAST_COMMIT_MESSAGE" value="added many functionalities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
