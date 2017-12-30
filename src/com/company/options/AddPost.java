@@ -6,7 +6,10 @@ import com.company.User;
 
 public class AddPost extends ThreadOption {
 
-    public String optionName = "Add new post";
+    public AddPost() {
+        optionName = "Add new post";
+    }
+
 
     @Override
     public boolean start(Thread thread, User user) {

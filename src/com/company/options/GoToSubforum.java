@@ -4,7 +4,10 @@ import com.company.UserInterface;
 
 public class GoToSubforum extends SubForumOption {
 
-    public String optionName = "Go to subForum";
+    public GoToSubforum(){
+        optionName = "Go to subForum";
+    }
+
 
     @Override
     public boolean start(UserInterface ui) {

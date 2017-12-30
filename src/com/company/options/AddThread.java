@@ -5,7 +5,9 @@ import com.company.UserInterface;
 
 public class AddThread extends SubForumOption {
 
-    public String optionName = "Add Thread";
+    public AddThread() {
+        optionName = "Add Thread";
+    }
 
     @Override
     public boolean start(UserInterface ui) {

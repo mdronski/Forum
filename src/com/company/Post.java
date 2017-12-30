@@ -1,9 +1,10 @@
 package com.company;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Date;
 
-public class Post {
+public class Post implements Serializable {
 
     private User user;
     private LocalDate date;

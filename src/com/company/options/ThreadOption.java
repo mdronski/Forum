@@ -2,13 +2,15 @@ package com.company.options;
 
 import com.company.User;
 import com.company.Thread;
+
+import java.io.Serializable;
 import java.util.Scanner;
 
 
-public abstract class ThreadOption {
+public abstract class ThreadOption implements Serializable {
 
     public String optionName;
-    protected Scanner scanner = new Scanner(System.in);
+    protected static Scanner scanner = new Scanner(System.in);
 
 
     public abstract boolean start(Thread thread, User user);
@@ -31,4 +33,8 @@ public abstract class ThreadOption {
         return scanner.nextLine();
     }
 
+    @Override
+    public String toString() {
+        return optionName + "   ";
+    }
 }

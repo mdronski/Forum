@@ -1,9 +1,10 @@
 package com.company;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Date;
 
-public class User {
+public class User implements Serializable {
 
     private String firstName;
     private String lastName;

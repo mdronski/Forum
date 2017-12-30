@@ -4,7 +4,11 @@ import com.company.UserInterface;
 
 public class GoToThread extends SubForumOption {
 
-    public String optionName = "Go to thread";
+    public GoToThread() {
+        optionName = "Go to thread";
+    }
+
+
 
     @Override
     public boolean start(UserInterface ui) {

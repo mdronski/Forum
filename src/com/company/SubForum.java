@@ -1,15 +1,16 @@
 package com.company;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class SubForum {
+public class SubForum implements Serializable {
 
     private String subject;
     private List<Thread> threads;
     private List<SubForum> subForums;
-    protected Scanner scanner = new Scanner(System.in);
+    protected static Scanner scanner = new Scanner(System.in);
 
 
     public SubForum(String subject) {

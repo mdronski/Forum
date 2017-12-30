@@ -5,7 +5,9 @@ import com.company.User;
 
 public class GoBackToSubForum extends ThreadOption {
 
-    public String optionName = "Go back";
+    public GoBackToSubForum(){
+        optionName = "Go back";
+    }
 
     @Override
     public boolean start(Thread thread, User user) {

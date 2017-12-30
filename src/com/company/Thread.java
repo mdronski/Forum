@@ -1,16 +1,15 @@
 package com.company;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Thread {
+public class Thread implements Serializable {
 
     private String topic;
     private List<Post> posts;
     private User user;
-    protected Scanner scanner = new Scanner(System.in);
-
 
 
     public Thread(String topic, User user) {

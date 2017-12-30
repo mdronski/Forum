@@ -4,7 +4,14 @@ import com.company.UserInterface;
 
 public class GoBack extends SubForumOption {
 
-    public String optionName = "Go back";
+    public GoBack(){
+        optionName = "Go back";
+    }
+
+    public String getOptionName() {
+        return optionName;
+    }
+
 
     @Override
     public boolean start(UserInterface userInterface) {

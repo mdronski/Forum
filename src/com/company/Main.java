@@ -1,7 +1,5 @@
 package com.company;
 
-import com.company.options.GoToThread;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -48,10 +46,10 @@ public class Main {
         //System.out.println(t1);
 
         Forum.getInstance().setMainForum(s1);
-        UserInterface UI = LoginClass.logIn();
+        //UserInterface UI = LoginClass.logIn();
 
-        UI.showSubForumInterface();
-
+        //UI.showSubForumInterface();
+         WriterClass.write(Forum.getInstance(), "ForumFile.ser");
 
 
 

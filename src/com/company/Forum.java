@@ -2,18 +2,19 @@ package com.company;
 
 import com.company.options.*;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Forum {
+public class Forum implements Serializable {
 
     private static final Forum instance = new Forum();
     private static String name = "Forum";
     private SubForum mainForum;
     private List<User> userList;
     private List<User> adminList;
-    private Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
     private List<SubForumOption> userSubForumOptions;
     private List<ThreadOption> userThreadOptions;
     private List<SubForumOption> adminSubForumOptions;
@@ -56,6 +57,24 @@ public class Forum {
     public List<User> getAdminList() {
         return adminList;
     }
+
+    public List<SubForumOption> getUserSubForumOptions() {
+        return userSubForumOptions;
+    }
+
+    public List<ThreadOption> getUserThreadOptions() {
+        return userThreadOptions;
+    }
+
+    public List<SubForumOption> getAdminSubForumOptions() {
+        return adminSubForumOptions;
+    }
+
+    public List<ThreadOption> getAdminThreadOptions() {
+        return adminThreadOptions;
+    }
+
+
 
     public boolean addNewUser(User user, boolean admin){
         if (!admin) {
@@ -110,6 +129,8 @@ public class Forum {
                 }
             }return null;
         }
+
+
 
     private void addUserThreadOptions(){
         this.userThreadOptions.add(new AddPost());

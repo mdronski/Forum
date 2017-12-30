@@ -15,9 +15,9 @@ public class LoginClass {
             password = getPassword();
         }
         if (Forum.getInstance().checkAdmin(login, password)){
-            return new AdminInterface(Forum.getInstance().getUser(login, password));
+            return new UserInterface(Forum.getInstance().getUser(login, password),Forum.getInstance().getUserSubForumOptions() ,Forum.getInstance().getAdminThreadOptions());
         }
-            return new UserInterface(Forum.getInstance().getUser(login, password));
+            return new UserInterface(Forum.getInstance().getUser(login, password), Forum.getInstance().getUserSubForumOptions(), Forum.getInstance().getUserThreadOptions());
 
     }
 

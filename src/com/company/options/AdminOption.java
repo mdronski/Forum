@@ -5,13 +5,13 @@ import com.company.UserInterface;
 import java.io.Serializable;
 import java.util.Scanner;
 
-public abstract class SubForumOption implements Serializable {
+public abstract class AdminOption implements Serializable {
 
     public String optionName;
 
     private static Scanner scanner = new Scanner(System.in);
 
-    public abstract boolean start(UserInterface ui);
+    public abstract boolean start();
 
     protected String getName(String option){
         System.out.println("Type " + option +  "name: ");
@@ -30,4 +30,5 @@ public abstract class SubForumOption implements Serializable {
     public String toString() {
         return  optionName + "  ";
     }
+
 }
