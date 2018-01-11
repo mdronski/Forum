@@ -1,9 +1,8 @@
 package com.company;
 
-import com.company.options.GoBack;
-import com.company.options.GoBackToSubForum;
-import com.company.options.SubForumOption;
-import com.company.options.ThreadOption;
+import com.company.options.ThreadOptions.GoBackToSubForum;
+import com.company.options.SubForumOptions.SubForumOption;
+import com.company.options.ThreadOptions.ThreadOption;
 
 import java.util.List;
 import java.util.Scanner;
@@ -17,6 +16,7 @@ public class UserInterface {
     protected Scanner scanner = new Scanner(System.in);
     protected List<SubForumOption> subForumOptions;
     protected List<ThreadOption> threadOptions;
+    protected boolean ifExit = false;
 
     public UserInterface(User user, List<SubForumOption> subForumOptions, List<ThreadOption> threadOptions) {
         this.subForum = Forum.getInstance().getMainForum();
@@ -42,6 +42,14 @@ public class UserInterface {
         return scanner;
     }
 
+    public boolean isIfExit() {
+        return ifExit;
+    }
+
+    public void setIfExit(boolean ifExit) {
+        this.ifExit = ifExit;
+    }
+
     public void setSubForum(SubForum subForum) {
         this.subForum = subForum;
     }
@@ -65,14 +73,14 @@ public class UserInterface {
 
         for(ThreadOption option : threadOptions){
 
-            System.out.print(threadOptions.indexOf(option) + ". ");      /////////// poprawa odrekurencynić!!!!!!
+            System.out.print(threadOptions.indexOf(option) + ". ");
             System.out.print(option.toString());
         }
 
         System.out.println();
         int optionNumber = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("you chosed option number: " + optionNumber);
+//        System.out.println("you chosed option number: " + optionNumber);
         threadOptions.get(optionNumber).start(thread, user);
         if (!(threadOptions.get(optionNumber) instanceof GoBackToSubForum)){
             cleanConsole();
@@ -81,27 +89,30 @@ public class UserInterface {
 
     }
 
+    public void handleSession(){
+        while (! ifExit){
+            showSubForumInterface();
+        }
+
+    }
+
+
     public void showSubForumInterface(){
         System.out.println(subForum);
         System.out.println();
 
-        for(SubForumOption option : subForumOptions){
-//            if (previousSubForums.empty() && option instanceof GoBack) {
-//                continue;
-//            }
+        for(SubForumOption option : subForumOptions)
+        {
             System.out.print(subForumOptions.indexOf(option) + ". ");
             System.out.print(option.toString());
         }
 
-
         int number = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("you chosed option number: " + number);
         System.out.println();
         subForumOptions.get(number).start(this);
 
         cleanConsole();
-        showSubForumInterface();
     }
 
     public boolean addThread(String topic){

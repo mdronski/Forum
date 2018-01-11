@@ -9,21 +9,23 @@ public class LoginClass {
      public static UserInterface logIn(){
         String login = getLogin();
         String password = getPassword();
-        while (!Forum.getInstance().checkUser(login, password)){
+        while (!Forum.getInstance().checkUser(Forum.getInstance().getUser(login, password))){
             System.out.println("Wprowadzono niepoprawne dane, wpisz je ponownie: ");
             login = getLogin();
             password = getPassword();
         }
-        if (Forum.getInstance().checkAdmin(login, password)){   // przekazać odrazu user!!!!!!
-            return new AdminInterface(Forum.getInstance().getUser(login, password),Forum.getInstance().getAdminSubForumOptions() ,Forum.getInstance().getAdminThreadOptions());
+        User user = Forum.getInstance().getUser(login, password);
+        if (Forum.getInstance().checkAdmin(user)){
+            return new AdminInterface(user,Forum.getInstance().getAdminSubForumOptions() ,Forum.getInstance().getAdminThreadOptions());
         }
-            return new UserInterface(Forum.getInstance().getUser(login, password), Forum.getInstance().getUserSubForumOptions(), Forum.getInstance().getUserThreadOptions());
+            return new UserInterface(user, Forum.getInstance().getUserSubForumOptions(), Forum.getInstance().getUserThreadOptions());
 
     }
 
     public static UserInterface loginInterface(){
         System.out.println("1. Log in");
         System.out.println("2. Create account");
+        System.out.println("3. Exit");
         System.out.println();
         int option = scanner.nextInt();
         scanner.nextLine();
@@ -33,13 +35,15 @@ public class LoginClass {
                 return logIn();
             case 2:
                 return createAccount();
-
+            case 3:
+                break;
 
             default:
                 System.out.println("wrong number!");
                 return loginInterface();
 
         }
+        return null;
     }
 
 

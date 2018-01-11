@@ -1,6 +1,9 @@
 package com.company;
 
-import com.company.options.*;
+import com.company.options.AdminOptions.AdminOption;
+import com.company.options.AdminOptions.GoBackFromAdmin;
+import com.company.options.SubForumOptions.SubForumOption;
+import com.company.options.ThreadOptions.ThreadOption;
 
 import java.util.List;
 
@@ -22,21 +25,21 @@ public class AdminInterface extends UserInterface {
             System.out.print(subForumOptions.indexOf(option) + ". ");
             System.out.print(option.toString());
         }
-        System.out.println((subForumOptions.size()+1) + ". Admin options");
+        System.out.println((subForumOptions.size()) + ". Admin options");
 
         int number = scanner.nextInt();
         scanner.nextLine();
         System.out.println("you chosed option number: " + number);
         System.out.println();
-        if (number <= subForumOptions.size()) {
+        if (number < subForumOptions.size()) {
             subForumOptions.get(number).start(this);
-        }   else if (number == (subForumOptions.size()+1)){
+        }   else if (number == (subForumOptions.size())){
             showAdminOptions();
         }
         cleanConsole();
         System.out.println();
         System.out.println();
-        showSubForumInterface();
+        //showSubForumInterface();
     }
 
     private void showAdminOptions(){

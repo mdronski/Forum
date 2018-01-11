@@ -6,30 +6,22 @@ import java.util.Date;
 
 public class User implements Serializable {
 
-//    private String firstName;
-//    private String lastName;
     private String nick;
     private String password;
     private final LocalDate registrationDate;
     private Integer postsCount;
+    private boolean isBanned;
 
     public User(String nick, String password) {
-//        this.firstName = firstName;
-//        this.lastName = lastName;
+
         this.nick = nick;
         this.registrationDate = LocalDate.now();
         this.postsCount = 0;
         this.password = password;
+        this.isBanned = false;
     }
 
 
-//    public String getFirstName() {
-//        return firstName;
-//    }
-//
-//    public String getLastName() {
-//        return lastName;
-//    }
 
     public String getNick() {
         return nick;
@@ -45,6 +37,10 @@ public class User implements Serializable {
 
     public String getPassword() {
         return password;
+    }
+
+    public void setBanned(boolean banned) {
+        isBanned = banned;
     }
 
     @Override

@@ -2,32 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344ca9b9-ddd6-4d6f-a5ab-908d4e0f1679" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/AdminInterface.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/ReaderClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/GoBackFromAdmin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/LogOut.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/AdminOptions/BannUser.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Forum.iml" afterPath="$PROJECT_DIR$/Forum.iml" />
+      <change beforePath="$PROJECT_DIR$/AdminList.ser" afterPath="$PROJECT_DIR$/AdminList.ser" />
+      <change beforePath="$PROJECT_DIR$/MainForum.ser" afterPath="$PROJECT_DIR$/MainForum.ser" />
+      <change beforePath="$PROJECT_DIR$/UserList.ser" afterPath="$PROJECT_DIR$/UserList.ser" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/AdminInterface.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/AdminInterface.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Forum.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Forum.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/LoginClass.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/LoginClass.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Thread.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Thread.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/User.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/User.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/UserInterface.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/WriterClass.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/WriterClass.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/DeletePost.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/options/DeletePost.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoBack.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoBack.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AddPost.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AddSubForum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AddThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AdminOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/DeletePost.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoBack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoBackFromAdmin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoBackToSubForum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoToSubforum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoToThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/LogOut.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/PromoteToAdmin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/ShowUsers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/SubForumOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/ThreadOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AdminInterface.java" afterPath="$PROJECT_DIR$/src/com/company/AdminInterface.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Forum.java" afterPath="$PROJECT_DIR$/src/com/company/Forum.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LoginClass.java" afterPath="$PROJECT_DIR$/src/com/company/LoginClass.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Thread.java" afterPath="$PROJECT_DIR$/src/com/company/Thread.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/User.java" afterPath="$PROJECT_DIR$/src/com/company/User.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/UserInterface.java" afterPath="$PROJECT_DIR$/src/com/company/UserInterface.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/WriterClass.java" afterPath="$PROJECT_DIR$/src/com/company/WriterClass.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/DeletePost.java" afterPath="$PROJECT_DIR$/src/com/company/options/DeletePost.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBack.java" afterPath="$PROJECT_DIR$/src/com/company/options/GoBack.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/ShowUsers.java" afterPath="$PROJECT_DIR$/src/com/company/options/ShowUsers.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/AddPost.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/AddPost.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/AddSubForum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/AddThread.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/AdminOption.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/DeletePost.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/DeletePost.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBack.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBackFromAdmin.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBackToSubForum.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/GoBackToSubForum.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoToSubforum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoToThread.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/LogOut.java" afterPath="$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/PromoteToAdmin.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/ShowUsers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/SubForumOption.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/ThreadOption.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/ThreadOption.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +63,8 @@
       <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="67" column="113" lean-forward="false" selection-start-line="67" selection-start-column="113" selection-end-line="67" selection-end-column="113" />
+            <state relative-caret-position="381">
+              <caret line="82" column="2" lean-forward="false" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addThread#0;class#UserInterface#0" expanded="false" />
@@ -57,11 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogOut.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/options/LogOut.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="558">
+              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+              <folding>
+                <element signature="e#893#894#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogOut.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -70,38 +103,8 @@
       <file leaf-file-name="LoginClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LoginClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="94" lean-forward="false" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriterClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/WriterClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/AdminInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeletePost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/options/DeletePost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="432">
+              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -124,20 +127,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Forum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Forum.java">
+      <file leaf-file-name="AdminInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AdminInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-              <folding>
-                <element signature="method#checkAdmin#0;class#Forum#0" expanded="false" />
-                <element signature="method#getUser#0;class#Forum#0" expanded="false" />
-                <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
-                <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
-                <element signature="method#addAdminThreadOptions#0;class#Forum#0" expanded="false" />
-                <element signature="method#addAdminSubForumOptions#0;class#Forum#0" expanded="false" />
-                <element signature="method#addAdminOptions#0;class#Forum#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,9 +140,30 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="-270">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Forum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Forum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+              <folding>
+                <element signature="method#addNewUser#0;class#Forum#0" expanded="false" />
+                <element signature="e#3129#3130#0" expanded="true" />
+                <element signature="e#3215#3216#0" expanded="true" />
+                <element signature="method#getUser#0;class#Forum#0" expanded="false" />
+                <element signature="method#getUser#1;class#Forum#0" expanded="false" />
+                <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
+                <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
+                <element signature="method#addAdminThreadOptions#0;class#Forum#0" expanded="false" />
+                <element signature="method#addAdminSubForumOptions#0;class#Forum#0" expanded="false" />
+                <element signature="method#addAdminOptions#0;class#Forum#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,19 +209,21 @@
         <option value="$PROJECT_DIR$/src/com/company/options/PromoteToAdmin.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/GoBackFromAdmin.java" />
         <option value="$PROJECT_DIR$/src/com/company/ReaderClass.java" />
-        <option value="$PROJECT_DIR$/src/com/company/options/LogOut.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/GoBack.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/ShowUsers.java" />
-        <option value="$PROJECT_DIR$/src/com/company/User.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AdminInterface.java" />
         <option value="$PROJECT_DIR$/src/com/company/Thread.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/DeletePost.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Forum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/UserInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/company/LoginClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/WriterClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/KolokwiumPrzygotowanie.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LoginClass.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/LogOut.java" />
+        <option value="$PROJECT_DIR$/src/com/company/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/AdminOptions/AdminOption.java" />
+        <option value="$PROJECT_DIR$/src/com/company/User.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/AdminOptions/BannUser.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AdminInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Forum.java" />
       </list>
     </option>
   </component>
@@ -255,6 +273,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Forum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Forum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminOptions" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -272,6 +305,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.company.options.ThreadOptions" />
+      <recent name="com.company.options.SubForumOptions" />
+      <recent name="com.company.options.AdminOptions" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -389,7 +429,7 @@
       <workItem from="1515427023383" duration="1516000" />
       <workItem from="1515448244558" duration="715000" />
       <workItem from="1515505143555" duration="1192000" />
-      <workItem from="1515664851407" duration="22000" />
+      <workItem from="1515664851407" duration="5312000" />
     </task>
     <task id="LOCAL-00001" summary="Empty project">
       <created>1513354700382</created>
@@ -409,68 +449,39 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70105000" />
+    <option name="totallyTimeSpent" value="75395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1173" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14046511" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38640776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16731302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718447" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14046511" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28252426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16731302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14046511" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38640776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13074793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -490,13 +501,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Post.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -509,7 +513,9 @@
         <state relative-caret-position="648">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
-            <element signature="method#checkAdmin#0;class#Forum#0" expanded="false" />
+            <element signature="method#addNewUser#0;class#Forum#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="true" />
+            <element signature="e#3215#3216#0" expanded="true" />
             <element signature="method#getUser#0;class#Forum#0" expanded="false" />
             <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
@@ -585,7 +591,9 @@
         <state relative-caret-position="234">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
-            <element signature="method#checkAdmin#0;class#Forum#0" expanded="false" />
+            <element signature="method#addNewUser#0;class#Forum#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="true" />
+            <element signature="e#3215#3216#0" expanded="true" />
             <element signature="method#getUser#0;class#Forum#0" expanded="false" />
             <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
@@ -659,14 +667,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/IOption.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/GoToSubforum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/GoToSubforum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/GoBackToSubForum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/GoBackToSubForum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
@@ -687,35 +695,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/AddPost.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/AddPost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOption.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/SubForumOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOption.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/ThreadOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/GoToThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/GoToThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/AddThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/AddThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
@@ -729,28 +737,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/AddSubForum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/AddSubForum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/PromoteToAdmin.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/PromoteToAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/GoBackFromAdmin.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/GoBackFromAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
@@ -764,21 +765,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/GoBack.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/GoBack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/ShowUsers.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/ShowUsers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
@@ -793,11 +787,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AdminInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/DeletePost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="162">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/WriterClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/KolokwiumPrzygotowanie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LoginClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="82" column="2" lean-forward="false" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addThread#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addSubForum#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#getNumber#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#getName#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#getContents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#cleanConsole#0;class#UserInterface#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/AdminOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="method#getName#0;class#AdminOption#0" expanded="false" />
+            <element signature="method#getNumber#0;class#AdminOption#0" expanded="false" />
+            <element signature="method#getUserNick#0;class#AdminOption#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/BannUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,83 +890,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/DeletePost.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/AdminInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="-270">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Forum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
           <folding>
-            <element signature="method#checkAdmin#0;class#Forum#0" expanded="false" />
+            <element signature="method#addNewUser#0;class#Forum#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="true" />
+            <element signature="e#3215#3216#0" expanded="true" />
             <element signature="method#getUser#0;class#Forum#0" expanded="false" />
+            <element signature="method#getUser#1;class#Forum#0" expanded="false" />
             <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminSubForumOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminOptions#0;class#Forum#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="67" column="113" lean-forward="false" selection-start-line="67" selection-start-column="113" selection-end-line="67" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addThread#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#addSubForum#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getNumber#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getName#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getContents#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#cleanConsole#0;class#UserInterface#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/LogOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LoginClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="94" lean-forward="false" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/WriterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/KolokwiumPrzygotowanie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>

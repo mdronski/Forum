@@ -41,17 +41,19 @@ public class Main {
 //        s2.addThread(t3);
 //
 //        s1.addSubForum(s2);
-
+//
 //        //System.out.println(s1);
 //        //System.out.println(t1);
 //
 //        Forum.getInstance().setMainForum(s1);
-        UserInterface UI = LoginClass.loginInterface();
 
-        UI.showSubForumInterface();
-         //WriterClass.write(Forum.getInstance(), "ForumFile.ser");
+        try {
+            UserInterface UI = LoginClass.loginInterface();
+            UI.handleSession();
+            //WriterClass.write(Forum.getInstance(), "ForumFile.ser");
+        }catch (NullPointerException e) {
 
-
+        }
     }
 
 

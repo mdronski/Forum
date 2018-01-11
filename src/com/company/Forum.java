@@ -1,6 +1,11 @@
 package com.company;
 
-import com.company.options.*;
+import com.company.options.AdminOptions.*;
+import com.company.options.SubForumOptions.*;
+import com.company.options.ThreadOptions.AddPost;
+import com.company.options.ThreadOptions.DeletePost;
+import com.company.options.ThreadOptions.GoBackToSubForum;
+import com.company.options.ThreadOptions.ThreadOption;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -25,8 +30,8 @@ public class Forum implements Serializable {
         mainForum = (SubForum) ReaderClass.read("MainForum.ser") ;
         userList = (List<User>) ReaderClass.read("UserList.ser");
         adminList =(List<User>) ReaderClass.read("AdminList.ser");
-//        userList = new ArrayList<>();
-//        adminList = new ArrayList<>();
+        userList = new ArrayList<>();
+        adminList = new ArrayList<>();
         userSubForumOptions = new ArrayList<>();
         addSubForumOptions();
         userThreadOptions = new ArrayList<>();
@@ -85,6 +90,8 @@ public class Forum implements Serializable {
         return adminOptions;
     }
 
+
+
     public boolean addNewUser(User user){
             if (userList.contains(user) || adminList.contains(user)) {
                 System.out.println("User already exists");
@@ -94,27 +101,12 @@ public class Forum implements Serializable {
             }
     }
 
-    public boolean checkUser(String nick, String password){
-        for (User user : userList){
-            if (user.getNick().equals(nick) && user.getPassword().equals(password)){
-                return true;
-            }
-        }
-        for (User user : adminList){
-            if (user.getNick().equals(nick) && user.getPassword().equals(password)){
-                return true;
-            }
-        }
-        return false;
+    public boolean checkUser(User user){
+        return (this.userList.contains(user) || this.adminList.contains(user));
     }
 
-    public boolean checkAdmin(String nick, String password){
-        for (User user : adminList){
-            if (user.getNick().equals(nick) && user.getPassword().equals(password)){
-                return true;
-            }
-        }
-        return false;
+    public boolean checkAdmin(User user){
+        return (this.userList.contains(user) || this.adminList.contains(user));
     }
 
     public User getUser(String nick, String password){
@@ -130,6 +122,18 @@ public class Forum implements Serializable {
             }return null;
         }
 
+    public User getUser(String nick){
+        for (User user : userList) {
+            if (user.getNick().equals(nick)) {
+                return user;
+            }
+        }
+        for (User user : adminList){
+            if (user.getNick().equals(nick)){
+                return user;
+            }
+        }return null;
+    }
 
 
     private void addThreadOptions(){
@@ -165,6 +169,7 @@ public class Forum implements Serializable {
     private void addAdminOptions(){
         this.adminOptions.add(new PromoteToAdmin());
         this.adminOptions.add(new ShowUsers());
+        this.adminOptions.add(new BannUser());
         this.adminOptions.add(new GoBackFromAdmin());
     }
 
