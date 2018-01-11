@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.options.GoBack;
 import com.company.options.GoBackToSubForum;
 import com.company.options.SubForumOption;
 import com.company.options.ThreadOption;
@@ -14,19 +15,15 @@ public class UserInterface {
     protected Stack<SubForum> previousSubForums;
     protected User user;
     protected Scanner scanner = new Scanner(System.in);
-    private List<SubForumOption> subForumOptions2;
-    private List<ThreadOption> threadOptions2;
-    private String threadOptions = "1.Add new post,    2.Delete post,   3.Go back";
-    private String subForumOptions = "1.Go to thread      2.Add new thread      3.Go back   4.Go to subForum";
-
+    protected List<SubForumOption> subForumOptions;
+    protected List<ThreadOption> threadOptions;
 
     public UserInterface(User user, List<SubForumOption> subForumOptions, List<ThreadOption> threadOptions) {
         this.subForum = Forum.getInstance().getMainForum();
         this.previousSubForums = new Stack<>();
         this.user = user;
-        this.subForumOptions2 = subForumOptions;
-        this.threadOptions2 = threadOptions;
-       // if (!Forum.getInstance().checkAdmin(user.getNick(), user.getPassword())) showSubForumInterface();
+        this.subForumOptions = subForumOptions;
+        this.threadOptions = threadOptions;
     }
 
     public SubForum getSubForum() {
@@ -45,14 +42,6 @@ public class UserInterface {
         return scanner;
     }
 
-    public String getThreadOptions() {
-        return threadOptions;
-    }
-
-    public String getSubForumOptions() {
-        return subForumOptions;
-    }
-
     public void setSubForum(SubForum subForum) {
         this.subForum = subForum;
     }
@@ -69,21 +58,14 @@ public class UserInterface {
         this.scanner = scanner;
     }
 
-    public void setThreadOptions(String threadOptions) {
-        this.threadOptions = threadOptions;
-    }
-
-    public void setSubForumOptions(String subForumOptions) {
-        this.subForumOptions = subForumOptions;
-    }
-
     public void showThreadInterface(int number){
         Thread thread = subForum.getThreads().get(number);
         System.out.println(thread);
         System.out.println();
 
-        for(ThreadOption option : threadOptions2){
-            System.out.print(threadOptions2.indexOf(option) + ". ");
+        for(ThreadOption option : threadOptions){
+
+            System.out.print(threadOptions.indexOf(option) + ". ");      /////////// poprawa odrekurencynić!!!!!!
             System.out.print(option.toString());
         }
 
@@ -91,8 +73,9 @@ public class UserInterface {
         int optionNumber = scanner.nextInt();
         scanner.nextLine();
         System.out.println("you chosed option number: " + optionNumber);
-        threadOptions2.get(optionNumber).start(thread, user);
-        if (!(threadOptions2.get(optionNumber) instanceof GoBackToSubForum)){
+        threadOptions.get(optionNumber).start(thread, user);
+        if (!(threadOptions.get(optionNumber) instanceof GoBackToSubForum)){
+            cleanConsole();
             showThreadInterface(number);
         }
 
@@ -102,8 +85,11 @@ public class UserInterface {
         System.out.println(subForum);
         System.out.println();
 
-        for(SubForumOption option : subForumOptions2){
-            System.out.print(subForumOptions2.indexOf(option) + ". ");
+        for(SubForumOption option : subForumOptions){
+//            if (previousSubForums.empty() && option instanceof GoBack) {
+//                continue;
+//            }
+            System.out.print(subForumOptions.indexOf(option) + ". ");
             System.out.print(option.toString());
         }
 
@@ -112,31 +98,9 @@ public class UserInterface {
         scanner.nextLine();
         System.out.println("you chosed option number: " + number);
         System.out.println();
-        subForumOptions2.get(number).start(this);
-//        switch (number){
-//            case 1:
-//                showThreadInterface(getNumber("thread"));
-//                break;
-//
-//            case 2:
-//                addThread(getName("thread"));
-//                break;
-//
-//            case 3:
-//                subForum = previousSubForums.pop();
-//                break;
-//
-//            case 4:
-//                int subForumNumber = getNumber("subForum");
-//                previousSubForums.push(subForum);
-//                subForum = subForum.getSubForums().get(subForumNumber);
-//                break;
-//
-//            default:
-//                System.out.println("wrong argument");
-//                break;
-//
-//        }
+        subForumOptions.get(number).start(this);
+
+        cleanConsole();
         showSubForumInterface();
     }
 
@@ -174,6 +138,25 @@ public class UserInterface {
         return scanner.nextLine();
     }
 
+    protected void cleanConsole(){
+                    try
+            {
+                final String os = System.getProperty("os.name");
+
+                if (os.contains("Windows"))
+                {
+                    Runtime.getRuntime().exec("cls");
+                }
+                else
+                {
+                    Runtime.getRuntime().exec("clear");
+                }
+            }
+            catch (final Exception e)
+            {
+                System.out.println("Error with checking OS type");
+            }
+        }
 
 
 }

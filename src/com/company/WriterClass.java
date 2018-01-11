@@ -8,10 +8,6 @@ import java.util.List;
 
 public class WriterClass {
 
-    public static void main(String[] args) {
-
-    }
-
 
     public static void write(Object object, String filePath){
 
@@ -23,7 +19,7 @@ public class WriterClass {
             oos = new ObjectOutputStream(fout);
             oos.writeObject(object);
 
-            System.out.println("Saved");
+         //   System.out.println("Saved");
 
         } catch (Exception e){
 
@@ -45,6 +41,17 @@ public class WriterClass {
                 }
             }
         }
+    }
+
+    public static void writeAllForum(){
+        Forum forum = Forum.getInstance();
+        write(forum.getMainForum(), "MainForum.ser");
+        write(forum.getUserList(), "UserList.ser");
+        write(forum.getAdminList(), "AdminList.ser");
+//        write(forum.getAdminSubForumOptions(), "AdminSubForumOptions");
+//        write(forum.getAdminThreadOptions(), "AdminThreadOptions");
+//        write(forum.getUserSubForumOptions(), "UserSubforumOptions");
+//        write(forum.getUserThreadOptions(), "UserThreadOptions.ser");
     }
 
 }

@@ -6,16 +6,16 @@ import java.util.Date;
 
 public class User implements Serializable {
 
-    private String firstName;
-    private String lastName;
+//    private String firstName;
+//    private String lastName;
     private String nick;
     private String password;
     private final LocalDate registrationDate;
     private Integer postsCount;
 
-    public User(String firstName, String lastName, String nick, String password) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public User(String nick, String password) {
+//        this.firstName = firstName;
+//        this.lastName = lastName;
         this.nick = nick;
         this.registrationDate = LocalDate.now();
         this.postsCount = 0;
@@ -23,13 +23,13 @@ public class User implements Serializable {
     }
 
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
+//    public String getFirstName() {
+//        return firstName;
+//    }
+//
+//    public String getLastName() {
+//        return lastName;
+//    }
 
     public String getNick() {
         return nick;
@@ -50,5 +50,21 @@ public class User implements Serializable {
     @Override
     public String toString() {
         return nick;
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        if (this == object){
+            return true;
+        }
+        if (object == null){
+            return false;
+        }
+        if (!(object instanceof User)){
+            return false;
+        }
+
+        User user = (User) object;
+        return this.nick.equals(user.getNick());
     }
 }

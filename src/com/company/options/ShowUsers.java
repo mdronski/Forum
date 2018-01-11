@@ -11,7 +11,7 @@ public class ShowUsers extends AdminOption {
     @Override
     public boolean start() {
         System.out.println(Forum.getInstance().getUserList());
-
+        System.out.println();
         return true;
     }
 }

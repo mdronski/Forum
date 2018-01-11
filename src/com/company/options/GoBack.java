@@ -15,7 +15,12 @@ public class GoBack extends SubForumOption {
 
     @Override
     public boolean start(UserInterface userInterface) {
-        userInterface.setSubForum(userInterface.getPreviousSubForums().pop());
-        return true;
+        if (userInterface.getPreviousSubForums().empty()) {
+            return false;
+        }
+        else {
+            userInterface.setSubForum(userInterface.getPreviousSubForums().pop());
+            return true;
+        }
     }
 }

@@ -26,8 +26,12 @@ public class Thread implements Serializable {
         return posts.add(post);
     }
 
-    public boolean deletePost(Post post){
-        return posts.remove(post);
+    public boolean deletePost(Post post, User user){
+        if (post.getUser().equals(user) || Forum.getInstance().getAdminList().contains(user)) {
+            return posts.remove(post);
+        }
+        System.out.println("You have no permission to delete this post!");
+        return false;
     }
 
     public User getUser() {

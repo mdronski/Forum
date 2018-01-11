@@ -14,6 +14,6 @@ public class DeletePost extends ThreadOption {
     public boolean start(Thread thread, User user) {
 
         int number = getNumber("post");
-        return thread.deletePost(thread.getPost(number));
+        return thread.deletePost(thread.getPost(number), user);
     }
 }

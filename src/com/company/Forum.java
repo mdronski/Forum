@@ -19,18 +19,25 @@ public class Forum implements Serializable {
     private List<ThreadOption> userThreadOptions;
     private List<SubForumOption> adminSubForumOptions;
     private List<ThreadOption> adminThreadOptions;
-
+    private List<AdminOption> adminOptions;
 
     private Forum(){
-        mainForum = new SubForum("Main");
-        userList = new ArrayList<>();
-        adminList = new ArrayList<>();
+        mainForum = (SubForum) ReaderClass.read("MainForum.ser") ;
+        userList = (List<User>) ReaderClass.read("UserList.ser");
+        adminList =(List<User>) ReaderClass.read("AdminList.ser");
+//        userList = new ArrayList<>();
+//        adminList = new ArrayList<>();
         userSubForumOptions = new ArrayList<>();
-        addUserSubForumOptions();
+        addSubForumOptions();
         userThreadOptions = new ArrayList<>();
-        addUserThreadOptions();
+        addThreadOptions();
         adminSubForumOptions = new ArrayList<>();
+        addAdminSubForumOptions();
         adminThreadOptions = new ArrayList<>();
+        addAdminThreadOptions();
+        adminOptions = new ArrayList<>();
+        addAdminOptions();
+//        adminList.add(new User("mdronski","haslo"));
     }
 
 
@@ -74,24 +81,17 @@ public class Forum implements Serializable {
         return adminThreadOptions;
     }
 
+    public List<AdminOption> getAdminOptions() {
+        return adminOptions;
+    }
 
-
-    public boolean addNewUser(User user, boolean admin){
-        if (!admin) {
-            if (userList.contains(user)) {
+    public boolean addNewUser(User user){
+            if (userList.contains(user) || adminList.contains(user)) {
                 System.out.println("User already exists");
                 return false;
             } else {
                 return userList.add(user);
             }
-        } else {
-            if (adminList.contains(user)) {
-                System.out.println("Admin already exists");
-                return false;
-            } else {
-                return adminList.add(user);
-            }
-        }
     }
 
     public boolean checkUser(String nick, String password){
@@ -132,21 +132,41 @@ public class Forum implements Serializable {
 
 
 
-    private void addUserThreadOptions(){
+    private void addThreadOptions(){
         this.userThreadOptions.add(new AddPost());
         this.userThreadOptions.add(new DeletePost());
         this.userThreadOptions.add(new GoBackToSubForum());
     }
 
-    private void addUserSubForumOptions(){
+    private void addSubForumOptions(){
+        this.userSubForumOptions.add(new GoBack());
         this.userSubForumOptions.add(new AddThread());
         this.userSubForumOptions.add(new GoToThread());
         this.userSubForumOptions.add(new GoToSubforum());
-        this.userSubForumOptions.add(new GoBack());
+        this.userSubForumOptions.add(new LogOut());
     }
 
+    private void addAdminThreadOptions(){
+        this.adminThreadOptions.addAll(userThreadOptions);
 
+    }
 
+    private void addAdminSubForumOptions(){
+        this.adminSubForumOptions.addAll(userSubForumOptions);
+//        for (SubForumOption option : this.adminSubForumOptions){
+//            if (option instanceof LogOut){
+//                this.adminSubForumOptions.remove(option);
+//            }
+//        }
+        this.adminSubForumOptions.add(this.adminSubForumOptions.size()-1 ,new AddSubForum());
+//        this.adminSubForumOptions.add(new LogOut());
+    }
+
+    private void addAdminOptions(){
+        this.adminOptions.add(new PromoteToAdmin());
+        this.adminOptions.add(new ShowUsers());
+        this.adminOptions.add(new GoBackFromAdmin());
+    }
 
 
 }
