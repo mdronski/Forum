@@ -16,7 +16,8 @@ public class UserInterface {
     protected Scanner scanner = new Scanner(System.in);
     protected List<SubForumOption> subForumOptions;
     protected List<ThreadOption> threadOptions;
-    protected boolean ifExit = false;
+    protected boolean forumExit = false;
+    protected boolean threadExit = false;
 
     public UserInterface(User user, List<SubForumOption> subForumOptions, List<ThreadOption> threadOptions) {
         this.subForum = Forum.getInstance().getMainForum();
@@ -42,20 +43,16 @@ public class UserInterface {
         return scanner;
     }
 
-    public boolean isIfExit() {
-        return ifExit;
+    public boolean isForumExit() {
+        return forumExit;
     }
 
-    public void setIfExit(boolean ifExit) {
-        this.ifExit = ifExit;
+    public void setForumExit(boolean forumExit) {
+        this.forumExit = forumExit;
     }
 
     public void setSubForum(SubForum subForum) {
         this.subForum = subForum;
-    }
-
-    public void setPreviousSubForums(Stack<SubForum> previousSubForums) {
-        this.previousSubForums = previousSubForums;
     }
 
     public void setUser(User user) {
@@ -66,8 +63,15 @@ public class UserInterface {
         this.scanner = scanner;
     }
 
-    public void showThreadInterface(int number){
-        Thread thread = subForum.getThreads().get(number);
+    public void handleThreadSession(int threadNumber){
+        while (!threadExit){
+            showThreadInterface(threadNumber);
+        }
+        threadExit = false;
+    }
+
+    public void showThreadInterface(int threadNumber){
+        Thread thread = subForum.getThreads().get(threadNumber);
         System.out.println(thread);
         System.out.println();
 
@@ -78,24 +82,24 @@ public class UserInterface {
         }
 
         System.out.println();
-        int optionNumber = scanner.nextInt();
-        scanner.nextLine();
-//        System.out.println("you chosed option number: " + optionNumber);
+
+        int optionNumber = Forum.getOptionNumber(0, threadOptions.size()-1);
+
         threadOptions.get(optionNumber).start(thread, user);
-        if (!(threadOptions.get(optionNumber) instanceof GoBackToSubForum)){
-            cleanConsole();
-            showThreadInterface(number);
+        if (threadOptions.get(optionNumber) instanceof GoBackToSubForum){
+            this.threadExit = true;
         }
+        System.out.println();
+        cleanConsole();
 
     }
 
-    public void handleSession(){
-        while (! ifExit){
+    public void handleForumSession(){
+        while (!forumExit){
             showSubForumInterface();
         }
 
     }
-
 
     public void showSubForumInterface(){
         System.out.println(subForum);
@@ -107,46 +111,24 @@ public class UserInterface {
             System.out.print(option.toString());
         }
 
-        int number = scanner.nextInt();
-        scanner.nextLine();
+        int number = Forum.getOptionNumber(0, subForumOptions.size()-1);
         System.out.println();
         subForumOptions.get(number).start(this);
 
+        System.out.println();
         cleanConsole();
     }
 
-    public boolean addThread(String topic){
-        Thread thread = new Thread(topic, this.user);
-        if (!this.subForum.getThreads().contains(thread)) {
-            this.subForum.getThreads().add(thread);
-            System.out.println("Added new thread");
-            return true;
-        }
-        return false;
-    }
-
     public boolean addSubForum(String subject){
+        for (SubForum subForum : this.subForum.getSubForums()){
+            if (subject.equals(subForum.getSubject())){
+                System.out.println("On this level already exists subForum with the same subject!");
+                return false;
+            }
+        }
         SubForum subForum = new SubForum(subject);
         System.out.println("added new subForum");
         return this.subForum.addSubForum(subForum);
-    }
-
-    private int getNumber(String option){
-        System.out.println("Choose " + option);
-        int number = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("You choosed " + option + " " + number);
-        return number;
-    }
-
-    private String getName(String option){
-        System.out.println("Type " + option +  "name: ");
-        return scanner.nextLine();
-    }
-
-    private String getContents(){
-        System.out.println("Type contents of the post: ");
-        return scanner.nextLine();
     }
 
     protected void cleanConsole(){
@@ -168,6 +150,7 @@ public class UserInterface {
                 System.out.println("Error with checking OS type");
             }
         }
+
 
 
 }

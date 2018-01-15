@@ -30,8 +30,8 @@ public class Forum implements Serializable {
         mainForum = (SubForum) ReaderClass.read("MainForum.ser") ;
         userList = (List<User>) ReaderClass.read("UserList.ser");
         adminList =(List<User>) ReaderClass.read("AdminList.ser");
-        userList = new ArrayList<>();
-        adminList = new ArrayList<>();
+//        userList = new ArrayList<>();
+//        adminList = new ArrayList<>();
         userSubForumOptions = new ArrayList<>();
         addSubForumOptions();
         userThreadOptions = new ArrayList<>();
@@ -90,8 +90,6 @@ public class Forum implements Serializable {
         return adminOptions;
     }
 
-
-
     public boolean addNewUser(User user){
             if (userList.contains(user) || adminList.contains(user)) {
                 System.out.println("User already exists");
@@ -135,7 +133,6 @@ public class Forum implements Serializable {
         }return null;
     }
 
-
     private void addThreadOptions(){
         this.userThreadOptions.add(new AddPost());
         this.userThreadOptions.add(new DeletePost());
@@ -171,6 +168,36 @@ public class Forum implements Serializable {
         this.adminOptions.add(new ShowUsers());
         this.adminOptions.add(new BannUser());
         this.adminOptions.add(new GoBackFromAdmin());
+    }
+
+    public static int getOptionNumber(int minValue, int maxValue){
+        String num = scanner.nextLine();
+
+        while (!isInteger(num) || Integer.parseInt(num) < minValue || Integer.parseInt(num) > maxValue){
+            if (!isInteger(num)){
+                System.out.println("You have to enter an integer!");
+            }else {
+                System.out.println("You have to chose number from " + minValue + " to " + maxValue);
+            }
+            num = scanner.nextLine();
+        }
+
+        return Integer.parseInt(num);
+
+
+    }
+
+    private static boolean isInteger(String str)
+    {
+        try
+        {
+            int i = Integer.parseInt(str);
+        }
+        catch(NumberFormatException e)
+        {
+            return false;
+        }
+        return true;
     }
 
 

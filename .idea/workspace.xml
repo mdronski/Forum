@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344ca9b9-ddd6-4d6f-a5ab-908d4e0f1679" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/AdminOptions/BannUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/options/Option.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/AdminList.ser" afterPath="$PROJECT_DIR$/AdminList.ser" />
       <change beforePath="$PROJECT_DIR$/MainForum.ser" afterPath="$PROJECT_DIR$/MainForum.ser" />
@@ -11,44 +11,32 @@
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Forum.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Forum.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/LoginClass.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/LoginClass.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/ReaderClass.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/ReaderClass.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/SubForum.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/SubForum.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/User.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/User.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/UserInterface.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AddPost.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AddSubForum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AddThread.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AdminOption.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/DeletePost.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoBack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoBackFromAdmin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoBackToSubForum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoToSubforum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/GoToThread.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/LogOut.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/PromoteToAdmin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/ShowUsers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/SubForumOption.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/ThreadOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/WriterClass.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/WriterClass.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/AdminOptions/AdminOption.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/options/AdminOptions/AdminOption.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/SubForumOptions/GoToThread.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/options/SubForumOptions/GoToThread.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/SubForumOptions/LogOut.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/options/SubForumOptions/LogOut.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/SubForumOptions/SubForumOption.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/options/SubForumOptions/SubForumOption.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/ThreadOptions/GoBackToSubForum.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/options/ThreadOptions/GoBackToSubForum.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Forum/com/company/options/ThreadOptions/ThreadOption.class" afterPath="$PROJECT_DIR$/out/production/Forum/com/company/options/ThreadOptions/ThreadOption.class" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AdminInterface.java" afterPath="$PROJECT_DIR$/src/com/company/AdminInterface.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Forum.java" afterPath="$PROJECT_DIR$/src/com/company/Forum.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LoginClass.java" afterPath="$PROJECT_DIR$/src/com/company/LoginClass.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ReaderClass.java" afterPath="$PROJECT_DIR$/src/com/company/ReaderClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SubForum.java" afterPath="$PROJECT_DIR$/src/com/company/SubForum.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/User.java" afterPath="$PROJECT_DIR$/src/com/company/User.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/UserInterface.java" afterPath="$PROJECT_DIR$/src/com/company/UserInterface.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/AddPost.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/AddPost.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/AddSubForum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/AddThread.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/AdminOption.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/DeletePost.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/DeletePost.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBackFromAdmin.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoBackToSubForum.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/GoBackToSubForum.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoToSubforum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/GoToThread.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/LogOut.java" afterPath="$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/PromoteToAdmin.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/ShowUsers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/SubForumOption.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/options/ThreadOption.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/ThreadOption.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/WriterClass.java" afterPath="$PROJECT_DIR$/src/com/company/WriterClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/AdminOptions/AdminOption.java" afterPath="$PROJECT_DIR$/src/com/company/options/AdminOptions/AdminOption.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/SubForumOptions/GoToThread.java" afterPath="$PROJECT_DIR$/src/com/company/options/SubForumOptions/GoToThread.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java" afterPath="$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/SubForumOptions/SubForumOption.java" afterPath="$PROJECT_DIR$/src/com/company/options/SubForumOptions/SubForumOption.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/GoBackToSubForum.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/GoBackToSubForum.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/ThreadOption.java" afterPath="$PROJECT_DIR$/src/com/company/options/ThreadOptions/ThreadOption.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,110 +48,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/UserInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="82" column="2" lean-forward="false" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#addThread#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#addSubForum#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#getNumber#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#getName#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#getContents#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#cleanConsole#0;class#UserInterface#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-              <folding>
-                <element signature="e#893#894#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogOut.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/LoginClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding>
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="method#toString#0;class#Thread#0" expanded="false" />
-                <element signature="method#equals#0;class#Thread#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/AdminInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Forum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Forum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-              <folding>
-                <element signature="method#addNewUser#0;class#Forum#0" expanded="false" />
-                <element signature="e#3129#3130#0" expanded="true" />
-                <element signature="e#3215#3216#0" expanded="true" />
-                <element signature="method#getUser#0;class#Forum#0" expanded="false" />
-                <element signature="method#getUser#1;class#Forum#0" expanded="false" />
-                <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
-                <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
-                <element signature="method#addAdminThreadOptions#0;class#Forum#0" expanded="false" />
-                <element signature="method#addAdminSubForumOptions#0;class#Forum#0" expanded="false" />
-                <element signature="method#addAdminOptions#0;class#Forum#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -193,14 +83,12 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console_1.snippet" />
         <option value="$PROJECT_DIR$/src/com/company/IOption.java" />
-        <option value="$PROJECT_DIR$/src/com/company/options/Option.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/GoToSubforum.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/AddPost.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/AddThread.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/GoBackToSubForum.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/GoToThread.java" />
         <option value="$PROJECT_DIR$/src/com/company/Post.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SubForum.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/SubForumOption.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/ThreadOption.java" />
         <option value="$PROJECT_DIR$/src/com/company/WriteForum.java" />
@@ -208,22 +96,29 @@
         <option value="$PROJECT_DIR$/src/com/company/options/AdminOption.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/PromoteToAdmin.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/GoBackFromAdmin.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ReaderClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/GoBack.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/ShowUsers.java" />
         <option value="$PROJECT_DIR$/src/com/company/Thread.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/DeletePost.java" />
-        <option value="$PROJECT_DIR$/src/com/company/WriterClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/KolokwiumPrzygotowanie.java" />
-        <option value="$PROJECT_DIR$/src/com/company/LoginClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/LogOut.java" />
-        <option value="$PROJECT_DIR$/src/com/company/UserInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/company/options/AdminOptions/AdminOption.java" />
-        <option value="$PROJECT_DIR$/src/com/company/User.java" />
         <option value="$PROJECT_DIR$/src/com/company/options/AdminOptions/BannUser.java" />
+        <option value="$PROJECT_DIR$/src/com/company/WriterClass.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/ThreadOptions/GoBackToSubForum.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/SubForumOptions/GoToThread.java" />
+        <option value="$PROJECT_DIR$/src/com/company/User.java" />
+        <option value="$PROJECT_DIR$/src/com/company/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LoginClass.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SubForum.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ReaderClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/AdminInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Forum.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/Option.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/ThreadOptions/ThreadOption.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/SubForumOptions/SubForumOption.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java" />
+        <option value="$PROJECT_DIR$/src/com/company/options/AdminOptions/AdminOption.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -236,8 +131,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="927" />
-    <option name="height" value="1053" />
+    <option name="width" value="917" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -254,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,28 +167,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="options" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="options" type="462c0819:PsiDirectoryNode" />
-              <item name="AdminOptions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,6 +310,8 @@
       <workItem from="1515448244558" duration="715000" />
       <workItem from="1515505143555" duration="1192000" />
       <workItem from="1515664851407" duration="5312000" />
+      <workItem from="1515955051256" duration="5000" />
+      <workItem from="1516050442719" duration="7852000" />
     </task>
     <task id="LOCAL-00001" summary="Empty project">
       <created>1513354700382</created>
@@ -449,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75395000" />
+    <option name="totallyTimeSpent" value="83252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1173" extended-state="6" />
@@ -467,7 +349,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16731302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17174515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -501,27 +383,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Forum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
             <element signature="method#addNewUser#0;class#Forum#0" expanded="false" />
-            <element signature="e#3129#3130#0" expanded="true" />
-            <element signature="e#3215#3216#0" expanded="true" />
-            <element signature="method#getUser#0;class#Forum#0" expanded="false" />
+            <element signature="method#getUser#1;class#Forum#0" expanded="false" />
             <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminSubForumOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminOptions#0;class#Forum#0" expanded="false" />
+            <element signature="method#getOptionNumber#0;class#Forum#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Forum#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -532,11 +407,9 @@
           <caret line="15" column="88" lean-forward="false" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addThread#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#handleThreadSession#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#handleForumSession#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addSubForum#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getNumber#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getName#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getContents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#cleanConsole#0;class#UserInterface#0" expanded="false" />
           </folding>
         </state>
@@ -592,14 +465,14 @@
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="method#addNewUser#0;class#Forum#0" expanded="false" />
-            <element signature="e#3129#3130#0" expanded="true" />
-            <element signature="e#3215#3216#0" expanded="true" />
-            <element signature="method#getUser#0;class#Forum#0" expanded="false" />
+            <element signature="method#getUser#1;class#Forum#0" expanded="false" />
             <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminSubForumOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminOptions#0;class#Forum#0" expanded="false" />
+            <element signature="method#getOptionNumber#0;class#Forum#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Forum#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,11 +483,9 @@
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addThread#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#handleThreadSession#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#handleForumSession#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addSubForum#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getNumber#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getName#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getContents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#cleanConsole#0;class#UserInterface#0" expanded="false" />
           </folding>
         </state>
@@ -674,66 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/GoBackToSubForum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/io/ObjectOutputStream.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/AddPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/SubForumOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/ThreadOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/GoToThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/AddThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SubForum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -779,10 +594,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/KolokwiumPrzygotowanie.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/BannUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/GoToThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/AddThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ReaderClass.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="105" column="29" lean-forward="true" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#handleThreadSession#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#handleForumSession#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addSubForum#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#cleanConsole#0;class#UserInterface#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SubForum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="method#SubForum#0;class#SubForum#0" expanded="false" />
+            <element signature="method#toString#0;class#SubForum#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="method#Thread#0;class#Thread#0" expanded="false" />
+            <element signature="method#deletePost#0;class#Thread#0" expanded="false" />
+            <element signature="method#toString#0;class#Thread#0" expanded="false" />
+            <element signature="method#equals#0;class#Thread#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AdminInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="method#showSubForumInterface#0;class#AdminInterface#0" expanded="false" />
+            <element signature="method#handleAdminOptionsSession#0;class#AdminInterface#0" expanded="false" />
+            <element signature="method#showAdminOptions#0;class#AdminInterface#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/AddPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -795,133 +715,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/WriterClass.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/GoBackToSubForum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/KolokwiumPrzygotowanie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="234">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LoginClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="method#loginInterface#0;class#LoginClass#0" expanded="false" />
+            <element signature="method#getString#0;class#LoginClass#0" expanded="false" />
+            <element signature="method#createAccount#0;class#LoginClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/WriterClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/LogOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="252">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding>
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="82" column="2" lean-forward="false" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addThread#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#addSubForum#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getNumber#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getName#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#getContents#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#cleanConsole#0;class#UserInterface#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/AdminOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="234">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="method#getName#0;class#AdminOption#0" expanded="false" />
-            <element signature="method#getNumber#0;class#AdminOption#0" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#getUserNick#0;class#AdminOption#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/options/AdminOptions/BannUser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/SubForumOptions/SubForumOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/ThreadOptions/ThreadOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="method#toString#0;class#Thread#0" expanded="false" />
-            <element signature="method#equals#0;class#Thread#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AdminInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/options/Option.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Forum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="414">
+          <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding>
             <element signature="method#addNewUser#0;class#Forum#0" expanded="false" />
-            <element signature="e#3129#3130#0" expanded="true" />
-            <element signature="e#3215#3216#0" expanded="true" />
-            <element signature="method#getUser#0;class#Forum#0" expanded="false" />
             <element signature="method#getUser#1;class#Forum#0" expanded="false" />
             <element signature="method#addThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addSubForumOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminThreadOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminSubForumOptions#0;class#Forum#0" expanded="false" />
             <element signature="method#addAdminOptions#0;class#Forum#0" expanded="false" />
+            <element signature="method#getOptionNumber#0;class#Forum#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Forum#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

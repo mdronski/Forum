@@ -39,7 +39,6 @@ public class SubForum implements Serializable {
         return subForums.add(subforum);
     }
 
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

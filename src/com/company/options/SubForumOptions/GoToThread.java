@@ -12,7 +12,7 @@ public class GoToThread extends SubForumOption {
 
     @Override
     public boolean start(UserInterface ui) {
-        ui.showThreadInterface(getNumber("thread"));
+        ui.handleThreadSession(getNumber("thread"));
         return true;
     }
 }

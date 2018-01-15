@@ -1,30 +1,16 @@
 package com.company.options.SubForumOptions;
 
 import com.company.UserInterface;
+import com.company.options.Option;
+
 
 import java.io.Serializable;
 import java.util.Scanner;
 
-public abstract class SubForumOption implements Serializable {
+public abstract class SubForumOption extends Option implements Serializable {
 
-    public String optionName;
-
-    private static Scanner scanner = new Scanner(System.in);
 
     public abstract boolean start(UserInterface ui);
-
-    protected String getName(String option){
-        System.out.println("Type " + option +  "name: ");
-        return scanner.nextLine();
-    }
-
-    protected int getNumber(String option){
-        System.out.println("Choose " + option);
-        int number = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("You choosed " + option + " " + number);
-        return number;
-    }
 
     @Override
     public String toString() {

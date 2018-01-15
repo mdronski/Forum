@@ -39,6 +39,10 @@ public class User implements Serializable {
         return password;
     }
 
+    public boolean isBanned() {
+        return isBanned;
+    }
+
     public void setBanned(boolean banned) {
         isBanned = banned;
     }

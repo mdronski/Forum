@@ -10,7 +10,7 @@ public class Main {
 //        Forum.getInstance().addNewUser(u2);
 //
 //        Post p1 = new Post("szukam pracy", u1);
-//        Post p2 = new Post("przyjme gruz", u1);
+//        Post p2 = new Post("przyjme ziemie", u1);
 //        Post p3 = new Post("udziele korepetycji", u1);
 //        Post p4 = new Post("naprawie komputer", u2);
 //        Post p5 = new Post("co ty gadasz", u2);
@@ -41,15 +41,15 @@ public class Main {
 //        s2.addThread(t3);
 //
 //        s1.addSubForum(s2);
-//
-//        //System.out.println(s1);
-//        //System.out.println(t1);
-//
+
+        //System.out.println(s1);
+        //System.out.println(t1);
+
 //        Forum.getInstance().setMainForum(s1);
 
         try {
             UserInterface UI = LoginClass.loginInterface();
-            UI.handleSession();
+            UI.handleForumSession();
             //WriterClass.write(Forum.getInstance(), "ForumFile.ser");
         }catch (NullPointerException e) {
 

@@ -6,15 +6,23 @@ public class LoginClass {
 
     private static Scanner scanner = new Scanner(System.in);
 
-     public static UserInterface logIn(){
-        String login = getLogin();
-        String password = getPassword();
+    private static UserInterface logIn(){
+        String login = getString("login");
+        String password = getString("password");
+
         while (!Forum.getInstance().checkUser(Forum.getInstance().getUser(login, password))){
-            System.out.println("Wprowadzono niepoprawne dane, wpisz je ponownie: ");
-            login = getLogin();
-            password = getPassword();
+            System.out.println("Login or password is incorrect, try again");
+            login = getString("login");
+            password = getString("password");
         }
+
         User user = Forum.getInstance().getUser(login, password);
+
+        if (user.isBanned()){
+            System.out.println("You are banned!");
+            return null;
+        }
+
         if (Forum.getInstance().checkAdmin(user)){
             return new AdminInterface(user,Forum.getInstance().getAdminSubForumOptions() ,Forum.getInstance().getAdminThreadOptions());
         }
@@ -27,48 +35,26 @@ public class LoginClass {
         System.out.println("2. Create account");
         System.out.println("3. Exit");
         System.out.println();
-        int option = scanner.nextInt();
-        scanner.nextLine();
-
+        int option = Forum.getOptionNumber(1,3);
         switch (option){
             case 1:
                 return logIn();
             case 2:
                 return createAccount();
             case 3:
-                break;
-
-            default:
-                System.out.println("wrong number!");
-                return loginInterface();
-
+                return null;
         }
         return null;
     }
 
-
-    private static String getLogin(){
-        System.out.println("Podaj login: ");
-        String login = scanner.nextLine();
-        System.out.println();
-        return login;
-    }
-
-    private static String getPassword(){
-        System.out.println("Podaj hasło: ");
-        String passw = scanner.nextLine();
-        System.out.println();
-        return passw;
-    }
-
     private static String getString(String s){
-        System.out.println("Podaj " + s);
+        System.out.println("Enter " + s);
         String var = scanner.nextLine();
         System.out.println();
         return var;
     }
 
-    public static UserInterface createAccount(){
+    private static UserInterface createAccount(){
        String nick = getString("nickName");
        String password = getString("password");
          while (!Forum.getInstance().addNewUser(new User(nick, password))){

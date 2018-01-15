@@ -6,8 +6,6 @@ import java.util.Scanner;
 
 public class ReaderClass {
 
-    private static Scanner scanner = new Scanner(System.in);
-
     public static Object read(String fileName){
 
         Object object = null;

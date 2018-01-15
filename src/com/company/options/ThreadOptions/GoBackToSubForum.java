@@ -12,6 +12,7 @@ public class GoBackToSubForum extends ThreadOption {
     @Override
     public boolean start(Thread thread, User user) {
         //do nothing
+        //marker function
         return true;
     }
 }

@@ -11,13 +11,11 @@ public class LogOut extends SubForumOption{
 
     @Override
     public boolean start(UserInterface ui) {
-        ui.setIfExit(true);
+        ui.setForumExit(true);
         WriterClass.writeAllForum();
+        System.out.println("Logged out");
         System.out.println();
         System.out.println();
-        System.out.println();
-      //  UserInterface UI = LoginClass.logIn();
-      //  UI.showSubForumInterface();
         return true;
     }
 }

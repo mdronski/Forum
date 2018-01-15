@@ -19,8 +19,6 @@ public class WriterClass {
             oos = new ObjectOutputStream(fout);
             oos.writeObject(object);
 
-         //   System.out.println("Saved");
-
         } catch (Exception e){
 
             e.printStackTrace();
@@ -48,10 +46,6 @@ public class WriterClass {
         write(forum.getMainForum(), "MainForum.ser");
         write(forum.getUserList(), "UserList.ser");
         write(forum.getAdminList(), "AdminList.ser");
-//        write(forum.getAdminSubForumOptions(), "AdminSubForumOptions");
-//        write(forum.getAdminThreadOptions(), "AdminThreadOptions");
-//        write(forum.getUserSubForumOptions(), "UserSubforumOptions");
-//        write(forum.getUserThreadOptions(), "UserThreadOptions.ser");
     }
 
 }

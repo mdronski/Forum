@@ -9,9 +9,12 @@ import java.util.List;
 
 public class AdminInterface extends UserInterface {
 
+    private boolean adminOptionsExit = false;
+
     public AdminInterface(User user, List<SubForumOption> subForumOptions, List<ThreadOption> threadOptions) {
         super(user, subForumOptions, threadOptions);
     }
+
 
     @Override
     public void showSubForumInterface(){
@@ -19,27 +22,29 @@ public class AdminInterface extends UserInterface {
         System.out.println();
 
         for(SubForumOption option : subForumOptions){
-//                if (previousSubForums.empty() && option instanceof GoBack) {
-//                    continue;
-//                }
+
             System.out.print(subForumOptions.indexOf(option) + ". ");
             System.out.print(option.toString());
         }
         System.out.println((subForumOptions.size()) + ". Admin options");
 
-        int number = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("you chosed option number: " + number);
+        int optionNumber = Forum.getOptionNumber(0,subForumOptions.size());
         System.out.println();
-        if (number < subForumOptions.size()) {
-            subForumOptions.get(number).start(this);
-        }   else if (number == (subForumOptions.size())){
-            showAdminOptions();
+        if (optionNumber < subForumOptions.size()) {
+            subForumOptions.get(optionNumber).start(this);
+        }   else {
+            handleAdminOptionsSession();
         }
         cleanConsole();
         System.out.println();
-        System.out.println();
-        //showSubForumInterface();
+    }
+
+    private void handleAdminOptionsSession(){
+        while (!this.adminOptionsExit){
+            showAdminOptions();
+            cleanConsole();
+        }
+        this.adminOptionsExit = false;
     }
 
     private void showAdminOptions(){
@@ -48,14 +53,11 @@ public class AdminInterface extends UserInterface {
             System.out.print(adminOption.toString());
         }
         System.out.println();
-        int number = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("you chosed option number: " + number);
+        int optionNumber = Forum.getOptionNumber(0 ,Forum.getInstance().getAdminOptions().size()-1);
         System.out.println();
-        Forum.getInstance().getAdminOptions().get(number).start();
-        if (!(Forum.getInstance().getAdminOptions().get(number) instanceof GoBackFromAdmin)){
-            cleanConsole();
-            showAdminOptions();
+        Forum.getInstance().getAdminOptions().get(optionNumber).start();
+        if (Forum.getInstance().getAdminOptions().get(optionNumber) instanceof GoBackFromAdmin){
+            this.adminOptionsExit = true;
         }
     }
 
