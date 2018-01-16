@@ -22,6 +22,10 @@ public class Thread implements Serializable {
         return topic;
     }
 
+    public List<Post> getPosts() {
+        return posts;
+    }
+
     public boolean addPost(Post post){
         return posts.add(post);
     }

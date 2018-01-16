@@ -13,7 +13,7 @@ public class DeletePost extends ThreadOption {
     @Override
     public boolean start(Thread thread, User user) {
 
-        int number = getNumber("post");
-        return thread.deletePost(thread.getPost(number), user);
+        int postNumber = getNumber("post",0 , thread.getPosts().size());
+        return thread.deletePost(thread.getPost(postNumber), user);
     }
 }

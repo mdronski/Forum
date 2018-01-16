@@ -11,9 +11,9 @@ public class GoToSubforum extends SubForumOption {
 
     @Override
     public boolean start(UserInterface ui) {
-        int number = getNumber("subForum");
+        int subforumNumber = getNumber("subForum",0, ui.getSubForum().getSubForums().size());
         ui.getPreviousSubForums().push(ui.getSubForum());
-        ui.setSubForum(ui.getSubForum().getSubForums().get(number));
+        ui.setSubForum(ui.getSubForum().getSubForums().get(subforumNumber));
         return true;
     }
 }

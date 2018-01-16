@@ -27,11 +27,11 @@ public class Forum implements Serializable {
     private List<AdminOption> adminOptions;
 
     private Forum(){
-        mainForum = (SubForum) ReaderClass.read("MainForum.ser") ;
-        userList = (List<User>) ReaderClass.read("UserList.ser");
-        adminList =(List<User>) ReaderClass.read("AdminList.ser");
-//        userList = new ArrayList<>();
-//        adminList = new ArrayList<>();
+//        mainForum = (SubForum) ReaderClass.read("MainForum.ser") ;
+//        userList = (List<User>) ReaderClass.read("UserList.ser");
+//        adminList =(List<User>) ReaderClass.read("AdminList.ser");
+        userList = new ArrayList<>();
+        adminList = new ArrayList<>();
         userSubForumOptions = new ArrayList<>();
         addSubForumOptions();
         userThreadOptions = new ArrayList<>();
@@ -42,7 +42,7 @@ public class Forum implements Serializable {
         addAdminThreadOptions();
         adminOptions = new ArrayList<>();
         addAdminOptions();
-//        adminList.add(new User("mdronski","haslo"));
+        adminList.add(new User("mdronski","haslo"));
     }
 
 
@@ -104,7 +104,7 @@ public class Forum implements Serializable {
     }
 
     public boolean checkAdmin(User user){
-        return (this.userList.contains(user) || this.adminList.contains(user));
+        return (this.adminList.contains(user));
     }
 
     public User getUser(String nick, String password){

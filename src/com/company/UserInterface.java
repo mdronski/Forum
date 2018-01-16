@@ -47,6 +47,8 @@ public class UserInterface {
         return forumExit;
     }
 
+
+
     public void setForumExit(boolean forumExit) {
         this.forumExit = forumExit;
     }

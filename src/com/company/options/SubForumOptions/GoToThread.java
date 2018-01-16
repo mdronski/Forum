@@ -1,6 +1,9 @@
 package com.company.options.SubForumOptions;
 
+import com.company.Forum;
 import com.company.UserInterface;
+
+import java.util.List;
 
 public class GoToThread extends SubForumOption {
 
@@ -12,7 +15,8 @@ public class GoToThread extends SubForumOption {
 
     @Override
     public boolean start(UserInterface ui) {
-        ui.handleThreadSession(getNumber("thread"));
+        int threadNumber = getNumber("thread", 0,ui.getSubForum().getThreads().size()-1);
+        ui.handleThreadSession(threadNumber);
         return true;
     }
 }
